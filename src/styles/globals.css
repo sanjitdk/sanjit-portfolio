@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --accent-cyan: #00F5FF;
+  --accent-amber: #FFB347;
+  --bg-dark: #0A0A0F;
+}
+
+body {
+  background-color: #0A0A0F;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 245, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  border: 1px solid rgba(0, 245, 255, 0.4);
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00F5FF;
+  border-radius: 10px;
+}
