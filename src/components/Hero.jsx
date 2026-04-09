@@ -77,7 +77,10 @@ export default function Hero() {
             whileHover={{ scale: 1.05, backgroundColor: 'rgba(0, 245, 255, 0.1)' }}
             className="px-8 py-4 border border-[#00F5FF] text-[#00F5FF] font-bold rounded-sm flex items-center gap-2"
           >
-            <FileText size={20} /> Resume
+            <FileText size={20} />
+            <a href="/sanjitdkresume.pdf" target="_blank" rel="noreferrer">
+  Download Resume
+</a>
           </motion.button>
         </div>
       </div>
