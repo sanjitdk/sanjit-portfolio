@@ -67,13 +67,6 @@ export default function Hero() {
 
         <div className="flex flex-wrap gap-4">
           <motion.button 
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 bg-[#00F5FF] text-black font-bold rounded-sm flex items-center gap-2"
-          >
-            View Projects
-          </motion.button>
-          <motion.button 
             whileHover={{ scale: 1.05, backgroundColor: 'rgba(0, 245, 255, 0.1)' }}
             className="px-8 py-4 border border-[#00F5FF] text-[#00F5FF] font-bold rounded-sm flex items-center gap-2"
           >

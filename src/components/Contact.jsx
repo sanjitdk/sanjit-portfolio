@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { supabase } from '../lib/supabaseClient';
-import { Send, Mail, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
+import { Send, Mail, MapPin, CheckCircle, AlertCircle, Phone } from 'lucide-react';
 
 // Re-using the icons from our previous step
 const GitHubIcon = () => (
@@ -61,6 +61,9 @@ export default function Contact() {
             <div className="flex items-center gap-4 text-gray-400 font-mono text-sm">
               <Mail className="text-[#00F5FF]" size={20} /> sanjitdineshkrishnan@gmail.com
             </div>
+            <div className="flex items-center gap-4 text-gray-400 font-mono text-sm">
+    <Phone className="text-[#00F5FF]" size={20} /> +91 97311 07755
+  </div>
           </div>
 
           <div className="flex gap-4 mt-12">
